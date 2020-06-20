@@ -1,0 +1,176 @@
+*{
+	margin:0px;
+	padding: 2px;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+i{
+	font-size: 100px;
+}
+
+hr{
+   background-color: blueviolet;
+}
+
+.section-1{
+	width: 24%;
+	border: 2px solid blue;
+	text-align: center;
+	font-family: times;
+	background-color: aqua;
+	border-radius: 20px;
+	word-wrap: break-word;
+	height: 350px;	
+}
+
+.section-2{
+	width: 74%;
+	border: 2px solid blue;
+	border-radius: 30px;
+	background-color: aquamarine;
+	word-wrap: break-word;
+	font-family: Helvetica;
+}
+
+.obj{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.personal{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px solid yellow;
+	font-family: sans-serif;
+	font-size: 20px;
+	overflow-x: auto;
+}
+
+@media only screen and (max-width: 900px){
+    
+    main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+	.section-1{
+	width: 24%;
+	position: relative;
+	left: 75%;
+	border: 2px solid blue;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: chartreuse;
+	border-radius: 20px;
+	word-wrap: break-word;
+	height: 350px;	
+}
+
+    .section-2{
+	width: 74%;
+	position: relative;
+	right: 25%;
+	border: 2px solid blue;
+	border-radius: 30px;
+	background-color: cyan;
+	word-wrap: break-word;
+	font-family: sans-serif;
+}
+
+}
+
+@media only screen and (max-width: 780px){
+
+	main{
+	width: 100%;
+	display: block;
+	justify-content: space-around;
+}
+
+	.section-1{
+	width: 98%;
+	border: 2px solid blue;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: darkorchid;
+	border-radius: 20px;
+	word-wrap: break-word;
+	height: 350px;	
+	position: relative;
+	left: 0%;
+}
+  
+    .section-2{
+	width: 98%;
+	border: 2px solid blue;
+	border-radius: 30px;
+	background-color: darkturquoise;
+	word-wrap: break-word;
+	font-family: sans-serif;
+	font-size: 20px;
+	position: relative;
+	left: 0%;
+	top: 10px;
+} 
+
+    .table{
+	overflow-x: auto;
+}
+
+} 
+
+@media only screen and (max-width: 480px){
+
+	.section-1{
+	width: 98%;
+	border: 2px solid blue;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: fuchsia;
+	border-radius: 20px;
+	height: 360px;	
+	position: relative;
+	left: 0%;
+	text-align: center;
+    display:flex;
+}
+   
+    .mobuser{
+    	display: block;
+    	margin: 2px;
+    	padding-top: 50px;
+    }
+
+    .mobile{
+    	word-wrap: break-word;
+    	padding-top: 50px;
+    	display: block;
+    }
+
+    .section-2{
+	width: 98%;
+	border: 2px solid blue;
+	border-radius: 30px;
+	background-color: lawngreen;
+	word-wrap: break-word;
+	font-family: lucida;
+	font-size: 20px;
+	position: relative;
+	left: 0%;
+	top: 10px;
+}
+ 
+}
+
+	
